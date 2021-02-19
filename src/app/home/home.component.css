@@ -1,0 +1,23 @@
+/* Section Home */
+#advertising {}
+
+.carousel-inner img {
+  filter: brightness(48%);
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner img {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+/* Section Home */
+
+/* Section About */
+
+#about {
+  margin-top: 7rem;
+}
+
+/* Section About */
