@@ -3,21 +3,17 @@
 }
 
 .navbar .nav-link {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.25);
   color: #b87333;
-  text-shadow: .2rem .2rem .2rem #fff;
+  text-shadow: .1rem .1rem .1rem #fff;
   font-weight: bold;
   margin-right: 5px;
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #ff9d5c;
   text-transform: uppercase;
   transition: 1s;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.25);
   color: #fff;
   border-bottom: 4px solid #a38068;
   text-decoration: none;
@@ -31,7 +27,7 @@
 
 /* Change navbar styling on scroll */
 .navbar.active {
-  background: #fff;
+  background: linen;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.55);
 }
 
