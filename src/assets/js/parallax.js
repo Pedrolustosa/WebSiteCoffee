@@ -1,0 +1,1 @@
+$('.parallax-window').parallax({imageSrc: '../../assets/img/fixed-background/fixed-background.jpg'});
