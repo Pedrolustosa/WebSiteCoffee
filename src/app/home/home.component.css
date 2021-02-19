@@ -17,6 +17,19 @@
   filter: brightness(45%);
 }
 
+.carousel-caption .btn {
+  margin: 5px;
+  color: #fff;
+  border: 3px solid;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 2s;
+}
+
+.carousel-caption .btn:hover {
+  transition: 2s;
+}
+
 @media screen and (max-width: 768px) {
   .carousel-inner img {
     height: 100vh;
@@ -28,21 +41,27 @@
 
 /* Section Partner */
 
-.bg-coffee {
+#partner .bg-coffee {
   background-color: #b87333 !important;
 }
 
-.owlcarousel {
-  filter: grayscale(75%);
+#partner .owlcarousel {
+  filter: grayscale(100%);
   transition: 1s;
   opacity: .3;
 }
 
-.owlcarousel:hover {
+#partner .owlcarousel:hover {
   cursor: pointer;
   filter: grayscale(0%);
   transition: 1s;
   opacity: 1;
+}
+
+@media screen and(max-width: 768px) {
+  #partner .owlcarousel {
+    width: 100%;
+  }
 }
 
 /* Section Partner */
