@@ -1,5 +1,5 @@
 .border-coffee {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -36,36 +36,6 @@
 
 .carousel-caption .btn:hover {
   transition: 2s;
-}
-
-@media(max-width:767px) {
-
-  .carousel-inner>.item>a>img,
-  .carousel-inner>.item>img,
-  h1 {
-    width: 100%;
-    height: 240px;
-  }
-}
-
-@media(max-width:450px) {
-
-  .carousel-inner>.item>a>img,
-  .carousel-inner>.item>img,
-  h1 {
-    width: 100%;
-    height: 269px;
-  }
-}
-
-@media(max-width:320px) {
-
-  .carousel-inner>.item>a>img,
-  .carousel-inner>.item>img,
-  h1 {
-    width: 100%;
-    height: 240px;
-  }
 }
 
 /* Section Slider */
