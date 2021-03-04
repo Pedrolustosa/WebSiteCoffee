@@ -129,8 +129,26 @@
   margin-bottom: 3rem;
 }
 
+#fixed-background .lead {
+  color: #fff;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
 .parallax-window {
-  min-height: 560px;
+  min-height: 140px;
+  filter: brightness(85%);
+}
+
+.parallax-window h1 {
+  color: #fff;
+  font-weight: 500;
 }
 
 
@@ -175,6 +193,10 @@
   padding-left: 0;
 }
 
+#footer p {
+  color: white;
+}
+
 #footer a {
   color: white;
   text-decoration: none;
@@ -183,6 +205,30 @@
 #footer a:hover {
   opacity: .7;
 }
+
+#footer i {
+  margin-right: 1rem;
+  font-size: 32px;
+  transition: 1s;
+}
+
+#footer .instagram:hover {
+  color: #9560b8;
+}
+
+#footer .facebook:hover {
+  color: #3b5998;
+}
+
+#footer .linkedin:hover {
+  color: #0e76a8;
+}
+
+#footer .twitter:hover {
+  color: #00acee;
+}
+
+
 
 #socket {
   color: #fff;
