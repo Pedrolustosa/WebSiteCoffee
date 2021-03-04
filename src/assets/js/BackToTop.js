@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
     jQuery('a#btnUP').click(function () {
         jQuery('body,html').animate({
             scrollTop: 0
-        }, 4500);
+        }, 300);
         return false;
     });
 
