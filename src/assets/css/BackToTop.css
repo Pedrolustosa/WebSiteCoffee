@@ -1,0 +1,29 @@
+/* BTN To UP */
+#btnUP {
+  text-decoration: none;
+  background: #794522;
+  bottom: 95px;
+  right: 12px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: fixed;
+  border: 3px solid #fff;
+  border-radius: 65px;
+  font-family: sans-serif;
+  opacity: .6;
+}
+
+#btnUP i {
+  font-size: 16px;
+}
+
+#btnUP:hover {
+  opacity: 1;
+}
+
+/* BTN To UP */

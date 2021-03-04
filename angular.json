@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/BackToTop.css",
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
@@ -35,7 +36,8 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/jquery-parallax.js/parallax.min.js",
               "src/assets/js/parallax.js",
-              "src/assets/js/navbar.js"
+              "src/assets/js/navbar.js",
+              "src/assets/js/BackToTop.js"
             ]
           },
           "configurations": {
