@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: true,
+    dots: false,
     responsive: {
       0: {
         items: 1,
